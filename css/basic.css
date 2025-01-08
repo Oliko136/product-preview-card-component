@@ -1,3 +1,20 @@
+:root {
+    --cream: #F2EAE2;
+    --white: #FFF;
+    --deep-aquamarine: #3D8168;
+    --aurometal-saurus: #6C7289;
+    --gunmetal: #1C232B;
+    --font-family-main: 'Montserrat', sans-serif;
+    --font-family-accent: 'Fraunces', serif;
+    --line-height: 1.4375rem;
+    --line-height-accent: 2rem;
+    --font-size-1: 2rem;
+    --font-size-2: 0.875rem;
+    --font-size-3: 0.8125rem;
+    --font-size-4: 0.75rem;
+
+}
+
 html {
     box-sizing: border-box;
 }
