@@ -41,4 +41,10 @@
     color: var(--white);
     border: transparent;
     background-color: var(--deep-aquamarine);
+    transition: background-color 250ms linear;
+}
+
+.card_button:hover,
+.card_button:focus {
+    background-color: var(--deep-aquamarine-hover);
 }
