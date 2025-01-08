@@ -6,7 +6,7 @@
     --gunmetal: #1C232B;
     --font-family-main: 'Montserrat', sans-serif;
     --font-family-accent: 'Fraunces', serif;
-    --line-height: 1.4375rem;
+    --line-height-main: 1.4375rem;
     --line-height-accent: 2rem;
     --font-size-1: 2rem;
     --font-size-2: 0.875rem;
@@ -47,4 +47,9 @@ img {
 
 body {
     margin: 0;
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-3);
+    line-height: var(--line-height-main);
+    color: var(--aurometal-saurus);
+    background-color: var(--cream);
 }
