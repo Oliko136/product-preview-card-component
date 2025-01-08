@@ -1,1 +1,44 @@
 @import './basic.css';
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.card_tag {
+    font-size: var(--font-size-4);
+    letter-spacing: 0.3125rem;
+    text-transform: uppercase;
+}
+
+.card_title {
+    font-family: var(--font-family-accent);
+    font-size: var(--font-size-1);
+    font-weight: 700;
+    line-height: var(--line-height-accent);
+    color: var(--gunmetal);
+}
+
+.card_price-new {
+    font-family: var(--font-family-accent);
+    font-size: var(--font-size-1);
+    font-weight: 700;
+    line-height: var(--line-height-accent);
+    color: var(--deep-aquamarine);
+}
+
+.card_price-old {
+    text-decoration: line-through;
+}
+
+.card_button {
+    border-radius: 8px;
+    color: var(--white);
+    border: transparent;
+    background-color: var(--deep-aquamarine);
+}
