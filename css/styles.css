@@ -10,18 +10,37 @@
     background-color: var(--white);
 }
 
+.card_content {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-150);
+}
+
 .card_tag {
+    margin-bottom: var(--spacing-75);
     font-size: var(--font-size-4);
     letter-spacing: 0.3125rem;
     text-transform: uppercase;
 }
 
 .card_title {
+    margin-bottom: var(--spacing-100);
     font-family: var(--font-family-accent);
     font-size: var(--font-size-1);
     font-weight: 700;
     line-height: var(--line-height-accent);
     color: var(--gunmetal);
+}
+
+.card_description {
+    margin-bottom: var(--spacing-150);
+}
+
+.card_price {
+    display: flex;
+    gap: var(--spacing-120);
+    align-items: center;
+    margin-bottom: var(--spacing-125);
 }
 
 .card_price-new {
@@ -37,6 +56,7 @@
 }
 
 .card_button {
+    padding: var(--spacing-100);
     border-radius: 8px;
     color: var(--white);
     border: transparent;
