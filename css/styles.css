@@ -56,6 +56,10 @@
 }
 
 .card_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-75);
     padding: var(--spacing-100);
     border-radius: 8px;
     color: var(--white);
