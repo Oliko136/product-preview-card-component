@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     width: 343px;
-    margin: auto;
+    margin: 11rem auto;
     overflow: hidden;
     border-radius: 10px;
     background-color: var(--white);
@@ -63,7 +63,7 @@
     padding: var(--spacing-100);
     border-radius: 8px;
     color: var(--white);
-    border: transparent;
+    border: none;
     background-color: var(--deep-aquamarine);
     transition: background-color 250ms linear;
 }
@@ -71,4 +71,35 @@
 .card_button:hover,
 .card_button:focus {
     background-color: var(--deep-aquamarine-hover);
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        flex-direction: row;
+        width: 600px;
+    }
+
+    .card_img {
+        min-width: 300px;
+    }
+
+    .card_content {
+        padding: var(--spacing-200);
+    }
+
+    .card_tag {
+        margin-bottom: var(--spacing-125);
+    }
+
+    .card_title {
+        margin-bottom: var(--spacing-150);
+    }
+
+    .card_description {
+        margin-bottom: var(--spacing-180);
+    }
+
+    .card_price {
+        margin-bottom: var(--spacing-180);
+    }
 }

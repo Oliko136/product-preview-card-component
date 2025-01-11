@@ -16,7 +16,14 @@
 <body>
 
   <article class="card">
-    <img class="card_img" src="./images/image-product-mobile.jpg" alt="Perfume bottle">
+    <div class="card_img">
+      <picture>
+        <source media="(max-width: 1439px)" srcset="./images/image-product-mobile.jpg">
+        <source srcset="./images/image-product-desktop.jpg">
+        <img src="#" alt="Perfume bottle" width="100%">
+      </picture>
+    </div>
+    
     <div class="card_content">
       <p class="card_tag">Perfume</p>
     
