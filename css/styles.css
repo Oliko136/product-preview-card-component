@@ -10,6 +10,10 @@
     background-color: var(--white);
 }
 
+.card_img img {
+    width: 100%;
+}
+
 .card_content {
     display: flex;
     flex-direction: column;
